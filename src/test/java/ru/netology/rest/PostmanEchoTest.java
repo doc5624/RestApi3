@@ -8,7 +8,7 @@ class PostmanEchoTest {
 
     @Test
     void shouldReturnSendData() {
-        int text = 5;
+        String text = "Postman testing";
 
         given()
                 .baseUri("https://postman-echo.com")
